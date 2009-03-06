@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+src/my/__init__.py
+src/my.name.space.egg-info/PKG-INFO
+src/my.name.space.egg-info/SOURCES.txt
+src/my.name.space.egg-info/dependency_links.txt
+src/my.name.space.egg-info/entry_points.txt
+src/my.name.space.egg-info/namespace_packages.txt
+src/my.name.space.egg-info/not-zip-safe
+src/my.name.space.egg-info/top_level.txt
+src/my/name/__init__.py
+src/my/name/space/__init__.py

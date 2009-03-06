@@ -1,0 +1,28 @@
+from setuptools import setup, find_packages
+import sys, os
+
+version = {{repr(version or "0.0")}}
+
+setup(name={{repr(project)}},
+      version=version,
+      description="{{description or ''}}",
+      long_description="""\
+{{long_description or ''}}""",
+      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      keywords={{repr(keywords or '')}},
+      author={{repr(author or '')}},
+      author_email={{repr(author_email or '')}},
+      url={{repr(url or '')}},
+      license={{repr(license_name or '')}},
+      packages=find_packages('src'),
+      package_dir = {'': 'src'},{{if len(namespace)>1 }}
+      namespace_packages = [{{ ", ".join("'%s'" % '.'.join(namespace[0:i]) for i in range(1, len(namespace))) }}],
+      {{endif}}include_package_data=True,
+      zip_safe={{repr(bool(zip_safe or False))}},
+      install_requires=[
+          # -*- Extra requirements: -*-
+      ],
+      entry_points="""
+      # -*- Entry points: -*-
+      """,
+      )

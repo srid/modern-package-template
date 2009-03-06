@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+src/simple_with_buildout/__init__.py
+src/simple_with_buildout.egg-info/PKG-INFO
+src/simple_with_buildout.egg-info/SOURCES.txt
+src/simple_with_buildout.egg-info/dependency_links.txt
+src/simple_with_buildout.egg-info/entry_points.txt
+src/simple_with_buildout.egg-info/not-zip-safe
+src/simple_with_buildout.egg-info/top_level.txt
