@@ -34,7 +34,7 @@ Create a new package with advanced_package template :
     
     $ paster create -t advanced_package my.new.package package=my.new.package
 
-You can answer True to buildout question to install buildout file (bootstrap.py and buildout.cfg).
+You can answer True to buildout question to install buildout files (bootstrap.py and buildout.cfg).
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
