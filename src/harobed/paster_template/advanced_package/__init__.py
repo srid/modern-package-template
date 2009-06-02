@@ -44,7 +44,7 @@ class AdvancedPackageTemplate(Template):
         part = vars['namespace'][-1]
         current_dir = os.path.join(current_dir, part)
         if not os.path.exists(current_dir):
-            os.mkdir(current_dir)
+            os.makedirs(current_dir)
 
         shutil.copyfile(
             os.path.join(template_dir, '.__init__.py'),

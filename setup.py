@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1'
+version = '0.2'
 
 setup(name='harobed.paster_template.advanced_package',
       version=version,
@@ -12,7 +12,7 @@ setup(name='harobed.paster_template.advanced_package',
 Features supports
 =================
 
-* namespace support
+* namespace support (handle multiple namespaces levels)
 * buildout support
 
 Install

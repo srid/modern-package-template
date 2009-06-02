@@ -23,6 +23,11 @@ def paster(cmd):
     runner = command(command_name)
     runner.run(args[1:])
 
+def listdir(path):
+    """Like os.listdir with '.svn' filter"""
+
+    return [f for f in os.listdir(path) if f not in (('.svn',))]
+
 def isFolderContentEqual(a, b):
     len_a = len(a)
     for root, dirs, files in os.walk(a):
@@ -33,8 +38,8 @@ def isFolderContentEqual(a, b):
             return False
 
         # Compare files and directory
-        if os.listdir(root) != os.listdir(os.path.join(b, folder_part)):
-            warnings.warn("%s != %s" % (os.listdir(root), os.listdir(os.path.join(b, folder_part))))
+        if listdir(root) != listdir(os.path.join(b, folder_part)):
+            warnings.warn("%s != %s" % (listdir(root), listdir(os.path.join(b, folder_part))))
             return False
         
         # Compare files contents
