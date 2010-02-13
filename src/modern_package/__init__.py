@@ -4,11 +4,12 @@ import shutil
 from paste.util.template import paste_script_template_renderer
 from paste.script.templates import Template, var
 
-class AdvancedPackageTemplate(Template):
+
+class ModernPackageTemplate(Template):
     _template_dir = 'templates'
-    summary = "Advanced setuptools-enabled package with buildout and namespace support"
+    summary = "Package with distribute and buildout support"
     vars = [
-        var('version', 'Version (like 0.1)'),
+        var('version', 'Version (like 0.1)', default='0.1'),
         var('description', 'One-line description of the package'),
         var('long_description', 'Multi-line description (in reST)'),
         var('keywords', 'Space-separated keywords/tags'),
@@ -17,7 +18,6 @@ class AdvancedPackageTemplate(Template):
         var('url', 'URL of homepage'),
         var('license_name', 'License name'),
         var('zip_safe', 'True/False: if the package can be distributed as a .zip file', default=False),
-        var('buildout', 'True/False: buildout support', default=False),
         ]
 
     template_renderer = staticmethod(paste_script_template_renderer)
@@ -51,10 +51,3 @@ class AdvancedPackageTemplate(Template):
             os.path.join(current_dir, '__init__.py')
         )
 
-        if (
-            (vars['buildout'] == False) or
-            (vars['buildout'] == "False") or
-            (vars['buildout'] == "") 
-        ):
-            os.remove(os.path.join(output_dir, "buildout.cfg"))
-            os.remove(os.path.join(output_dir, "bootstrap.py"))
