@@ -1,0 +1,9 @@
+syntax: glob
+
+tests
+
+.installed.cfg
+bin
+develop-eggs
+
+*.egg-info
