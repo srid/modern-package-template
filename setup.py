@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.9.0'
+version = '0.9.1'
 
 setup(name='modern-package-template',
       version=version,
@@ -11,7 +11,7 @@ setup(name='modern-package-template',
 Install
 =======
 
-Install the template :
+Install the template:
 
 ::
 
@@ -21,11 +21,23 @@ Install the template :
 Using
 =====
 
-Create a new package with modern-package-template template :
+Create a new package with ``modern_package`` template:
 
 ::
     
     $ paster create -t modern_package helloworld
+    
+    
+Credits
+=======
+
+Source code is derived from the `advanced_package`_ template which is also
+licensed under GPLv3. Unlike ``advanced_package``, ``modern_package`` uses
+distribute instead of setuptools, and always uses buildout instead of turning it
+off by default.
+
+.. _advanced_package: http://pypi.python.org/pypi/harobed.paster_template.advanced_package/
+
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
