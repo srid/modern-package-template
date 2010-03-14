@@ -4,6 +4,7 @@ News
 dev
 ---
 
+- Add distribute_setup.py to the template
 - 
 
 0.9.2
