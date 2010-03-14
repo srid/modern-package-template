@@ -16,7 +16,6 @@ class ModernPackageTemplate(Template):
         var('author_email', 'Author email'),
         var('url', 'URL of homepage'),
         var('license_name', 'License name'),
-        var('zip_safe', 'True/False: if the package can be distributed as a .zip file', default=False),
         ]
 
     template_renderer = staticmethod(paste_script_template_renderer)

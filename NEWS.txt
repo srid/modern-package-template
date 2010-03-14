@@ -4,6 +4,7 @@ News
 dev
 ---
 
+- #6: Remove zip_safe from the template questionnaire
 - #3: Add README.txt and NEWS.txt as a replacement for long_description
 - #1: Add distribute_setup.py to the template
 
