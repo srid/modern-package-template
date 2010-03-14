@@ -7,9 +7,9 @@ community. Thus, your projects will have the following characteristics:
 
 1. Use Distribute_ instead of setuptools as the BDFL himself supports_ it.
 2. Buildout_ support, though you are not required to make use of it.
-3. README.txt and NEWS.txt automatically included in your package metadata as
-   ``long_description``, thus making them appear in the PyPI_ page for your
-   project.
+3. ``README.txt`` and ``NEWS.txt`` automatically included in your package
+   metadata as ``long_description``, thus making them appear in the PyPI_ page
+   for your project.
    
 See the section titled "Roadmap" below for planned features.
 
