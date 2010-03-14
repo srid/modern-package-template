@@ -11,7 +11,6 @@ class ModernPackageTemplate(Template):
     vars = [
         var('version', 'Version (like 0.1)', default='0.1'),
         var('description', 'One-line description of the package'),
-        var('long_description', 'Multi-line description (in reST)'),
         var('keywords', 'Space-separated keywords/tags'),
         var('author', 'Author name'),
         var('author_email', 'Author email'),

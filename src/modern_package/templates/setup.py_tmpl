@@ -5,13 +5,23 @@ distribute_setup.use_setuptools()
 from setuptools import setup, find_packages
 import sys, os
 
+here = os.path.abspath(os.path.dirname(__file__))
+README = open(os.path.join(here, 'README.txt')).read()
+NEWS = open(os.path.join(here, 'NEWS.txt')).read()
+
 version = {{repr(version or "0.0")}}
+
+install_requires = [
+    # List your project dependencies here.
+    # For more details, see:
+    # http://packages.python.org/distribute/setuptools.html#declaring-dependencies
+]
+
 
 setup(name={{repr(project)}},
       version=version,
       description="{{description or ''}}",
-      long_description="""\
-{{long_description or ''}}""",
+      long_description=README + '\n\n' + NEWS,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords={{repr(keywords or '')}},
       author={{repr(author or '')}},
@@ -23,9 +33,7 @@ setup(name={{repr(project)}},
       namespace_packages = [{{ ", ".join("'%s'" % '.'.join(namespace[0:i]) for i in range(1, len(namespace))) }}],
       {{endif}}include_package_data=True,
       zip_safe={{repr(bool(zip_safe or False))}},
-      install_requires=[
-          # -*- Extra requirements: -*-
-      ],
+      install_requires=install_requires,
       entry_points="""
       # -*- Entry points: -*-
       """,
