@@ -2,51 +2,16 @@
 from setuptools import setup, find_packages
 import sys, os
 
+here = os.path.abspath(os.path.dirname(__file__))
+README = open(os.path.join(here, 'README.txt')).read()
+NEWS = open(os.path.join(here, 'NEWS.txt')).read()
+
 version = '1.0b1'
 
 setup(name='modern-package-template',
       version=version,
       description="PasteScript template to create a Python project with distribute and buildout support",
-      long_description="""\
-Install
-=======
-
-Install the template:
-
-::
-
-    $ pypm install modern-package-template
-
-
-Using
-=====
-
-Create a new package with ``modern_package`` template:
-    
-::
-
-    $ paster create -t modern_package helloworld
-
-To create a package with namespace support:
-
-::
-
-    $ paster create -t modern_package my.new.package package=my.new.package
-    
-    
-Credits
-=======
-
-Source code is derived from the `advanced_package`_ template - which is also
-licensed under GPLv3 - and differs from it in the following ways:
-
-  - use distribute instead of setuptools
-  - use buildout by default
-  - a complete buildout.cfg that is usable
-
-.. _advanced_package: http://pypi.python.org/pypi/harobed.paster_template.advanced_package/
-
-""",
+      long_description=README + '\n\n' + NEWS,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
       keywords='',
       author='Sridhar Ratnakumar',
