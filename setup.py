@@ -22,10 +22,16 @@ Using
 =====
 
 Create a new package with ``modern_package`` template:
+    
+::
+
+    $ paster create -t modern_package helloworld
+
+To create a package with namespace support:
 
 ::
-    
-    $ paster create -t modern_package helloworld
+
+    $ paster create -t modern_package my.new.package package=my.new.package
     
     
 Credits
