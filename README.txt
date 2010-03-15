@@ -43,11 +43,13 @@ your terminal:
 
     $ paster create -t modern_package helloworld
 
-You could also, optionally, create namespace packages:
+You can also, optionally, create `namespace packages`_:
 
 ::
 
     $ paster create -t modern_package my.new.package package=my.new.package
+    
+.. _`namespace packages`: http://packages.python.org/distribute/setuptools.html#namespace-packages
     
 Once you create the project layout, the very first thing you must do is to
 review the contents of ``README.txt`` and edit it accordingly.
