@@ -1,8 +1,8 @@
 modern-package-template
 =======================
 
-modern-package-template is a Paste template to create an initial layout for your
-Python projects using modern tools and practices followed in the Python
+modern-package-template is a `PasteScript template`_ to create an initial layout
+for your Python projects using modern tools and practices followed in the Python
 community. Thus, your projects will have the following characteristics:
 
 1. Use Distribute_ instead of setuptools as the BDFL himself supports_ it.
@@ -17,6 +17,7 @@ See the section titled "Roadmap" below for planned features.
 .. _Buildout: http://www.buildout.org/
 .. _supports: http://mail.python.org/pipermail/python-dev/2009-October/092678.html
 .. _Distribute: http://packages.python.org/distribute/
+.. _`PasteScript template`: http://pythonpaste.org/script/developer.html#templates
 
 
 Getting started
