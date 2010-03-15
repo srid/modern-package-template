@@ -49,6 +49,9 @@ You could also, optionally, create namespace packages:
 
     $ paster create -t modern_package my.new.package package=my.new.package
     
+Once you create the project layout, the very first thing you must do is to
+review the contents of ``README.txt`` and edit it accordingly.
+    
 Roadmap
 -------
 
