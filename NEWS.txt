@@ -1,6 +1,14 @@
 News
 ====
 
+dev
+---
+
+*Release date: UNKNOWN*
+
+- #10: Remove dependency on Distribute
+
+
 1.0b1
 -----
 

@@ -33,10 +33,8 @@ setup(name='modern-package-template',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          # -*- Extra requirements: -*-
           "Paste",
           "PasteScript",
-          "Distribute"
       ],
       entry_points="""
       [paste.paster_create_template]
