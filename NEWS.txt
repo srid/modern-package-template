@@ -1,13 +1,13 @@
 News
 ====
 
-dev
----
+1.0b2
+-----
 
-*Release date: UNKNOWN*
+*Release date: 15-Mar-2010*
 
 - #10: Remove dependency on Distribute
-
+- #9: Remove distribute_setup.py
 
 1.0b1
 -----
