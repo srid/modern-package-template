@@ -1,6 +1,13 @@
 News
 ====
 
+1.0b3
+-----
+
+*Release date: UNKNOWN*
+
+- Remove setup.cfg -- simple to have no .dev marker
+
 1.0b2
 -----
 
