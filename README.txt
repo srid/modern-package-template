@@ -10,6 +10,7 @@ community. Thus, your projects will have the following characteristics:
 3. ``README.txt`` and ``NEWS.txt`` automatically included in your package
    metadata as ``long_description``, thus making them appear in the PyPI_ page
    for your project.
+4. Automatic script (or .exe) creation using Distribute
    
 See the section titled "Roadmap" below for planned features.
 

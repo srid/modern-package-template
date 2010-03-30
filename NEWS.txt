@@ -6,6 +6,7 @@ News
 
 *Release date: UNKNOWN*
 
+- #2: Include a sample entry point
 - #13: Include .hgignore
 - #11: Include dev howtos in HACKING.txt 
 - Remove setup.cfg -- simple to have no .dev marker
