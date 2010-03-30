@@ -1,7 +1,7 @@
 News
 ====
 
-1.0b3
+1.0c1
 -----
 
 *Release date: UNKNOWN*
