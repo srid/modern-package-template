@@ -6,6 +6,7 @@ News
 
 *Release date: UNKNOWN*
 
+- #11: Include dev howtos in HACKING.txt 
 - Remove setup.cfg -- simple to have no .dev marker
 
 1.0b2
