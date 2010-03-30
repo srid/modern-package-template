@@ -13,7 +13,7 @@ setup(name='modern-package-template',
       description="PasteScript template to create a Python project with distribute and buildout support",
       long_description=README + '\n\n' + NEWS,
       classifiers=[
-          'Development Status :: 4 - Beta',
+          'Development Status :: 5 - Production/Stable',
           'Environment :: Console',
           'Environment :: Plugins',
           'Framework :: Paste',

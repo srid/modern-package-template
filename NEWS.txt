@@ -4,7 +4,7 @@ News
 1.0c1
 -----
 
-*Release date: UNKNOWN*
+*Release date: 30-Mar-2010*
 
 - Add a 'Credits' section to README.txt
 - #2: Include a sample entry point
