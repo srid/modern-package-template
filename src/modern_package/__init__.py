@@ -45,7 +45,7 @@ class ModernPackageTemplate(Template):
             os.makedirs(current_dir)
 
         shutil.copyfile(
-            os.path.join(template_dir, '.__init__.py'),
+            os.path.join(template_dir, '.normal__init__.py'),
             os.path.join(current_dir, '__init__.py')
         )
 

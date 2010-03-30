@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.txt')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
-version = '1.0.0b1'
+version = '1.0b2'
 
 setup(name='modern-package-template',
       version=version,
@@ -33,10 +33,8 @@ setup(name='modern-package-template',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          # -*- Extra requirements: -*-
           "Paste",
           "PasteScript",
-          "Distribute"
       ],
       entry_points="""
       [paste.paster_create_template]
