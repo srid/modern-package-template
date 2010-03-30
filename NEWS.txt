@@ -6,6 +6,7 @@ News
 
 *Release date: UNKNOWN*
 
+- Add a 'Credits' section to README.txt
 - #2: Include a sample entry point
 - #13: Include .hgignore
 - #11: Include dev howtos in HACKING.txt 
