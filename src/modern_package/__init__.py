@@ -29,6 +29,13 @@ class ModernPackageTemplate(Template):
     def post(self, command, output_dir, vars):
         template_dir = self.template_dir()
         current_dir = os.path.join(output_dir, "src")
+            
+        # apparently .dotfiles are not copied by Paster
+        shutil.copyfile(
+            os.path.join(template_dir, '.hgignore'),
+            os.path.join(output_dir, '.hgignore')
+        )
+        
         for part in vars['namespace'][:-1]:
             current_dir = os.path.join(current_dir, part)
             if not os.path.exists(current_dir):
@@ -38,7 +45,7 @@ class ModernPackageTemplate(Template):
                 os.path.join(template_dir, '.namespace__init__.py'),
                 os.path.join(current_dir, '__init__.py')
             )
-        
+            
         part = vars['namespace'][-1]
         current_dir = os.path.join(current_dir, part)
         if not os.path.exists(current_dir):
@@ -48,4 +55,3 @@ class ModernPackageTemplate(Template):
             os.path.join(template_dir, '.normal__init__.py'),
             os.path.join(current_dir, '__init__.py')
         )
-

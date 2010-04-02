@@ -6,6 +6,8 @@ News
 
 *Release date: UNRELEASED*
 
+- #18: Fix missing .hgignore
+
 
 1.0c1
 -----
