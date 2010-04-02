@@ -8,6 +8,7 @@ NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 version = '1.0c2'
 
+
 setup(name='modern-package-template',
       version=version,
       description="PasteScript template to create a Python project with distribute and buildout support",
