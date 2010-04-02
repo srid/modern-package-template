@@ -1,7 +1,7 @@
 .. This is your project NEWS file which will contain the release notes.
-.. See http://bitbucket.org/ianb/pip/src/tip/docs/news.txt for an example 
-.. NEWS.txt content.
-.. This file will be appended to your project's long description.
+.. Example: http://www.python.org/download/releases/2.6/NEWS.txt
+.. The content of this file, along with README.txt, will appear in your
+.. project's PyPI page.
 
 News
 ====
