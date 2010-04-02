@@ -1,6 +1,12 @@
 News
 ====
 
+1.0c3
+-----
+
+*Release date: UNRELEASED*
+
+
 1.0c2
 -----
 
