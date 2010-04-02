@@ -11,7 +11,9 @@ community. Thus, your projects will have the following characteristics:
    metadata as ``long_description``, thus making them appear in the PyPI_ page
    for your project.
 4. Automatic script (or .exe) creation using Distribute
-   
+
+Here is `a sample project`_ created using modern-package-template.
+
 See the section titled "Roadmap" below for planned features.
 
 .. _PyPI: http://pypi.python.org/
@@ -19,6 +21,7 @@ See the section titled "Roadmap" below for planned features.
 .. _supports: http://mail.python.org/pipermail/python-dev/2009-October/092678.html
 .. _Distribute: http://packages.python.org/distribute/
 .. _`PasteScript template`: http://pythonpaste.org/script/developer.html#templates
+.. _`a sample project`: http://bitbucket.org/srid/mpt-sample/src/
 
 
 Getting started
