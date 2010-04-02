@@ -1,5 +1,5 @@
-# A simple script to create source distribute and deploy it to
-# a virtualenv; also create sample project
+# A simple script to create the source distribution and deploy it to
+# a virtualenv; also create a sample project
 
 ENV=/tmp/mptenv
 VERSION=`python setup.py --version`
