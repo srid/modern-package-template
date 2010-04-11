@@ -7,6 +7,7 @@ News
 *Release date: UNRELEASED*
 
 - #20: Include .gitignore
+- #19: Rename README.txt to README.rst so it renders on Github
 
 
 1.0c2
