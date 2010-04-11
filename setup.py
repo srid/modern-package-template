@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.txt')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
-version = '1.0c3'
+version = '1.0'
 
 
 setup(name='modern-package-template',
