@@ -6,6 +6,8 @@ News
 
 *Release date: UNRELEASED*
 
+- #20: Include .gitignore
+
 
 1.0c2
 -----

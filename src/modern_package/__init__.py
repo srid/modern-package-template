@@ -31,10 +31,12 @@ class ModernPackageTemplate(Template):
         current_dir = os.path.join(output_dir, "src")
             
         # apparently .dotfiles are not copied by Paster
-        shutil.copyfile(
-            os.path.join(template_dir, '.hgignore'),
-            os.path.join(output_dir, '.hgignore')
-        )
+        hidden_files = ['.hgignore', '.gitignore']
+        for hf in hidden_files:
+            shutil.copyfile(
+                os.path.join(template_dir, hf),
+                os.path.join(output_dir, hf)
+            )
         
         for part in vars['namespace'][:-1]:
             current_dir = os.path.join(current_dir, part)
