@@ -4,7 +4,7 @@ News
 1.0
 ---
 
-*Release date: UNRELEASED*
+*Release date: 11-Apr-2010*
 
 - #20: Include .gitignore
 - #19: Rename README.txt to README.rst so it renders on Github
