@@ -21,7 +21,7 @@ See the section titled "Roadmap" below for planned features.
 .. _supports: http://mail.python.org/pipermail/python-dev/2009-October/092678.html
 .. _Distribute: http://packages.python.org/distribute/
 .. _`PasteScript template`: http://pythonpaste.org/script/developer.html#templates
-.. _`a sample project`: http://bitbucket.org/srid/mpt-sample/src/
+.. _`a sample project`: http://github.com/srid/mpt-sample
 
 
 Getting started
@@ -68,7 +68,7 @@ packages.python.org without having to manually do it themselves.
 
 If you like, please help with working on one of the `new/open issues`_.
 
-.. _`new/open issues`: http://bitbucket.org/srid/modern-package-template/issues/?status=new&status=open
+.. _`new/open issues`: http://github.com/srid/modern-package-template/issues
     
 Credits
 -------
