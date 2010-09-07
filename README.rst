@@ -7,7 +7,7 @@ community. Thus, your projects will have the following characteristics:
 
 1. Use Distribute_ instead of setuptools as the BDFL himself supports_ it.
 2. Buildout_ support, though you are not required to make use of it.
-3. ``README.txt`` and ``NEWS.txt`` automatically included in your package
+3. ``README.rst`` and ``NEWS.rst`` automatically included in your package
    metadata as ``long_description``, thus making them appear in the PyPI_ page
    for your project.
 4. Automatic script (or .exe) creation using Distribute
@@ -55,7 +55,7 @@ You can also, optionally, create `namespace packages`_:
 .. _`namespace packages`: http://packages.python.org/distribute/setuptools.html#namespace-packages
     
 Once you create the project layout, the very first thing you must do is to
-review the contents of ``README.txt`` and edit it accordingly.
+review the contents of ``README.rst`` and edit it accordingly.
     
 Credits
 -------
