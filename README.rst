@@ -14,8 +14,6 @@ community. Thus, your projects will have the following characteristics:
 
 Here is `a sample project`_ created using modern-package-template.
 
-See the section titled "Roadmap" below for planned features.
-
 .. _PyPI: http://pypi.python.org/
 .. _Buildout: http://www.buildout.org/
 .. _supports: http://mail.python.org/pipermail/python-dev/2009-October/092678.html
@@ -58,17 +56,6 @@ You can also, optionally, create `namespace packages`_:
     
 Once you create the project layout, the very first thing you must do is to
 review the contents of ``README.txt`` and edit it accordingly.
-    
-Roadmap
--------
-
-In the next release, I'd like to add support for Sphinx and Sphinx-PyPI-upload
-tool, so that developers can upload their sphinx-based documentation to
-packages.python.org without having to manually do it themselves.
-
-If you like, please help with working on one of the `new/open issues`_.
-
-.. _`new/open issues`: http://github.com/srid/modern-package-template/issues
     
 Credits
 -------
