@@ -6,6 +6,8 @@ News
 
 *Release date: UNRELEASED*
 
+- Fix: add parts/ to .gitignore and .hgignore
+
 
 1.0
 ---

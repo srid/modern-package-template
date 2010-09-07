@@ -3,6 +3,7 @@
 .installed.cfg
 bin
 develop-eggs
+parts
 
 *.egg-info
 
