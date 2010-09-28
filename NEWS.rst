@@ -7,6 +7,7 @@ News
 *Release date: UNRELEASED*
 
 - Fix: add parts/ to .gitignore and .hgignore
+- setup.py: add sample classifiers as multiline string (not list)
 
 
 1.0

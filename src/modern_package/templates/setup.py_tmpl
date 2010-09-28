@@ -19,9 +19,17 @@ setup(name={{repr(project)}},
     version=version,
     description="{{description or ''}}",
     long_description=README + '\n\n' + NEWS,
-    classifiers=[
-      # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-    ],
+    # Get classifiers from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+    # classifiers=[c.strip() for c in """
+    #     Development Status :: 4 - Beta
+    #     License :: OSI Approved :: MIT License
+    #     Operating System :: OS Independent
+    #     Programming Language :: Python :: 2.6
+    #     Programming Language :: Python :: 2.7
+    #     Programming Language :: Python :: 3
+    #     Topic :: Software Development :: Libraries :: Python Modules
+    #     """.split('\n') if c.strip()],
+    # ],
     keywords={{repr(keywords or '')}},
     author={{repr(author or '')}},
     author_email={{repr(author_email or '')}},
