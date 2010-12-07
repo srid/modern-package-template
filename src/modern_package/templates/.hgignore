@@ -1,12 +1,25 @@
 syntax: glob
 
-.installed.cfg
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
 bin
 develop-eggs
-parts
+.installed.cfg
 
-*.egg-info
+# Installer logs
+pip-log.txt
 
+# Unit test / coverage reports
+.coverage
+.tox
+
+# Not in github's gitignore:
 tmp
-build
-dist
+
