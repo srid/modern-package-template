@@ -9,8 +9,8 @@ community. Thus, your projects will have the following characteristics:
 2. Buildout_ support, though you are not required to make use of it.
 3. ``README.rst`` and ``NEWS.rst`` automatically included in your package
    metadata as ``long_description``, thus making them appear in the PyPI_ page
-   for your project.
-4. Automatic script (or .exe) creation using Distribute
+   for your project (`example <http://pypi.python.org/pypi/applib>`_).
+4. Automatic script (or .exe) creation using Distribute's "entry points".
 
 Here is `a sample project`_ created using modern-package-template.
 
@@ -35,7 +35,7 @@ First install modern-package-template using PyPM_ or pip_:
     
     $ pip install modern-package-template
     
-.. _PyPM: http://pypm.activestate.com/
+.. _PyPM: http://code.activestate.com/pypm/
 .. _pip: http://pip.openplans.org/
 
 
