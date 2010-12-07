@@ -10,6 +10,7 @@ News
   <https://github.com/github/gitignore/blob/master/Python.gitignore>`_ for
   .gitignore and .hgignore
 - setup.py: add sample classifiers as multiline string (not list)
+- Rename NEWS.txt to NEWS.rst (for rendering in GitHub)
 - #3: Add links to packaging guides
 
 
