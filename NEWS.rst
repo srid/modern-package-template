@@ -10,6 +10,7 @@ News
   <https://github.com/github/gitignore/blob/master/Python.gitignore>`_ for
   .gitignore and .hgignore
 - setup.py: add sample classifiers as multiline string (not list)
+- #3: Add links to packaging guides
 
 
 1.0

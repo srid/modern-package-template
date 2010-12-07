@@ -1,6 +1,8 @@
 # A simple script to create the source distribution and deploy it to
 # a virtualenv; also create a sample project
 
+set +e
+
 ENV=/tmp/mptenv
 VERSION=`python setup.py --version`
 SDIST=dist/modern-package-template-$VERSION.tar.gz
