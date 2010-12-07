@@ -19,5 +19,5 @@ To make a release,
 
 See the following sites for general guide to Python packaging:
 
-  * `The Hitchhiker’s Guide to Packaging <http://guide.python-distribute.org/>`_
+  * `The Hitchhiker's Guide to Packaging <http://guide.python-distribute.org/>`_
   * `Python Project Howto <http://infinitemonkeycorps.net/docs/pph/>`_
