@@ -6,8 +6,8 @@ releasing your software, as `a little documentation goes a long way`_.  Both
 README.rst (this file) and NEWS.txt (release notes) will be included in your
 package metadata which gets displayed in the PyPI page for your project.
 
-You can take a look at the README.txt of other projects, such as repoze.bfg
-(http://bfg.repoze.org/trac/browser/trunk/README.txt) for some ideas.
+You can take a look at other projects, such as `pyramid's README.txt
+<https://github.com/Pylons/pyramid/blob/master/README.rst>`_ for some ideas.
 
 .. _`a little documentation goes a long way`: http://www.martinaspeli.net/articles/a-little-documentation-goes-a-long-way
 
@@ -15,9 +15,7 @@ Credits
 -------
 
 - `Distribute`_
-- `Buildout`_
 - `modern-package-template`_
 
-.. _Buildout: http://www.buildout.org/
-.. _Distribute: http://pypi.python.org/pypi/distribute
-.. _`modern-package-template`: http://pypi.python.org/pypi/modern-package-template
+.. _Distribute: http://code.activestate.com/pypm/distribute/
+.. _`modern-package-template`: http://code.activestate.com/pypm/modern-package-template/
